@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="icon" href="img/icon.png"/>
+    <title>Random</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="add-window">
+            <div class="close-box">
+                <img src="img/close.png" alt="close" class="close-img"/>
+            </div>
+            <form>
+                <div class="input-box">
+                    <input type="text" class="input" placeholder="Add item">
+                    <div class="add-box">
+                        <span>+</span>
+                    </div>
+                </div>
+                <ul class="item-list"></ul>
+            </form>
+            <div class="btn-box">
+                <span class="btn-random btn">Random</span>
+            </div>
+        </div>
+        <div class="main-box">
+            <span class="main-text">r</span>
+            <span class="main-text blue">a</span>
+            <span class="main-text">n</span>
+            <span class="main-text blue">d</span>
+            <span class="main-text">o</span>
+            <span class="main-text blue">m</span>
+        </div>
+        <div class="reset-box">
+            <span class="reset">Reset</span>
+        </div>
+        <div class="tools-box">
+            <span class="btn-random pad-hov">Random</span>
+            <div id="plus-box">
+                <span>+</span>
+            </div>
+        </div>
+    </div>
+    <div class="back-on-modal"></div>
+    <script src="main.js"></script>
+</body>
+</html>
