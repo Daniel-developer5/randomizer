@@ -107,7 +107,9 @@ randBtns.forEach(elem => {
         mainBox.innerHTML = mainBoxHtml
         closeWin()
         addAnim()
-        reset.style.display = 'flex'
+        if (items.length > 0) {
+            reset.style.display = 'flex'
+        }
         setTimeout(() => {
             mainRand()
         }, 4500)
